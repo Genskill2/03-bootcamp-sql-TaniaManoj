@@ -15,7 +15,7 @@ insert into books (title, publisher) values
   ('Cryptonomicon' , 2),
   ('Deep Work' , 3),
   ('Atomic Habits' , 4),
-  ('The City and THe City' , 5),
+  ('The City and The City' , 5),
   ('The Great War for Civilisation' , 6);
 
 
@@ -25,12 +25,12 @@ insert into subjects (name) values
   ('Technology'),
   ('Go'),
   ('Science Fiction'),
-  ( 'Productivity'),
+  ('Productivity'),
   ('Psychology'),
   ('Politics'),
   ('History');
 
-insert into books_subjects (book, subject) values
+insert into books_subjects (book,subject) values
   (1,1),
 	(1,2),
 	(1,3),
